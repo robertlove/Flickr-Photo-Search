@@ -1,0 +1,25 @@
+div#flashMessage {
+    background: #faeb9e;
+    background: -moz-linear-gradient(center top, #fff, #faeb9e) repeat scroll 0 0 #faeb9e;
+    border: 1px solid #f7c942;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    padding: 0.4em 15px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+a.active {
+    border: 1px solid #bbb;
+    background: #dadada;
+    font-weight: bold;
+    color: #101010;
+    text-shadow: 0 1px 1px #fff;
+    background-image: -moz-linear-gradient(top, #ededed, #dadada);
+    background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, #ededed), color-stop(1, #dadada));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ededed', EndColorStr='#dadada')";
+}
+
+img.thumbnail {
+    margin: 4px;
+}
