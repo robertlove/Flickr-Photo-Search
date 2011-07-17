@@ -1,0 +1,29 @@
+Flickr Photo Search
+
+A CakePHP App that lets you search for Flickr photos
+
+REQUIREMENTS
+------------
+
+Flickr Photo Search requires CakePHP 2.0 (https://github.com/cakephp/cakephp/tree/2.0)
+
+INSTALLATION
+------------
+
+Replace your app directory with the app directory in this repo
+
+CONFIGURATION
+---------------
+
+Update app/config/database.php with the value of your Flickr API Key
+
+    public $default = array(
+        'datasource' => 'FlickrPhotoSource',
+        'key' => 'your_flickr_api_key'
+    );
+
+LICENSE
+-------
+
+The files in this archive are released under the new BSD license. You can find a
+copy of this license in LICENSE.
